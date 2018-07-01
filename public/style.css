@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+
+body {
+  background-image: url('img/light-bg1.png');
+  text-align: center;
+  
+}
+h1 {
+  font-size:5em;
+  font-family: 'Handlee', cursive;
+}
+
+p{
+  margin: 2em;
+  line-height:1.4;
+}
+.number{
+  font-size: 4em;
+  width: 250px;
+  text-align: right;
+  margin-bottom: 1em;
+  
+}
+
+.start{
+  display:block;
+  background-color:blueviolet;
+  color: white;
+  width:5em;
+  height:5em;
+  margin-left: auto;
+  margin-right:auto;
+  border-radius: 50%;
+  line-height:4.8em;
+  text-decoration: none;
+  box-shawdow: 2px 2px 5px black;
+  border: 0;
+  /*border-radius:10px will change to other shapes*/
+    
+}
+.start:hover {
+  transition: color 1s;
+  background-color: red;
+}
